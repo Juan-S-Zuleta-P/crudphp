@@ -1,0 +1,63 @@
+/* Estilos para el formulario */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Estilos para los enlaces con iconos */
+.icon-link {
+    color: #007BFF; /* Color del enlace */
+    text-decoration: none; /* Elimina la subrayado predeterminado */
+    margin-right: 10px; /* Ajusta el espacio entre el icono y el texto (si es necesario) */
+}
+
+/* Estilos para los iconos en los enlaces */
+.icon-link i {
+    margin-right: 5px; /* Ajusta el espacio entre el icono y el texto (si es necesario) */
+}
